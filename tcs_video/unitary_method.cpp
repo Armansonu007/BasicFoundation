@@ -9,7 +9,9 @@ int main() {
 	
 	double weight, dist;
 	cin>>weight>>dist;
-	
+	//add this line 
+    //to get the only two precsion values
+    cout<<fixed<<setprecision(2);
 	//toatla answer 
 	//base + cost_kg * weight + cost_km* dist
 	cout<<b_m+ cost_kg* weight + cost_km* dist;
